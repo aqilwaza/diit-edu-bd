@@ -97,13 +97,13 @@ Vulnerable Query: SELECT * FROM courses WHERE name LIKE '%${query}%'
       <th>ID</th><th>Username</th><th>Email</th><th>Role</th>
     </tr>
     <tr>
-      <td>1</td><td>admin</td><td>admin@ist.edu.bd</td><td>administrator</td>
+      <td>1</td><td>admin</td><td>admin@diit.edu.bd</td><td>administrator</td>
     </tr>
     <tr>
-      <td>2</td><td>student</td><td>student@ist.edu.bd</td><td>user</td>
+      <td>2</td><td>student</td><td>student@diit.edu.bd</td><td>user</td>
     </tr>
     <tr>
-      <td>3</td><td>teacher</td><td>teacher@ist.edu.bd</td><td>staff</td>
+      <td>3</td><td>teacher</td><td>teacher@diit.edu.bd</td><td>staff</td>
     </tr>
   </table>
   <p><small>SQL Injection Detected! Query: ${query}</small></p>

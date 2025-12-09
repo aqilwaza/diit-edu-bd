@@ -108,7 +108,7 @@ MAPI=1
     // Don't show generic path traversal message - let scanner mark as safe
     // Return notice content for normal files
     const notices = {
-        'admission-notice-2024.txt': `INSTITUTE OF SCIENCE AND TECHNOLOGY
+        'admission-notice-2024.txt': `DAFFODIL INSTITUTE OF IT
 Admission Notice for Academic Year 2024-2025
 
 Applications are invited for admission to the following programs:
@@ -120,9 +120,9 @@ Eligibility: SSC & HSC with minimum GPA 3.5
 Application Deadline: December 31, 2024
 Admission Test Date: January 15, 2025
 
-For more information, visit: www.ist.edu.bd/admission
-Contact: admission@ist.edu.bd | +880-2-9876543`,
-        'exam-schedule-fall2024.txt': `INSTITUTE OF SCIENCE AND TECHNOLOGY
+For more information, visit: www.diit.edu.bd/admission
+Contact: admission@diit.edu.bd | +880-2-9876543`,
+        'exam-schedule-fall2024.txt': `DAFFODIL INSTITUTE OF IT
 Final Examination Schedule - Fall Semester 2024
 
 CS401 - Cybersecurity Fundamentals
@@ -136,7 +136,7 @@ Date: December 15, 2024 | Time: 10:00 AM - 1:00 PM
 
 Exam Venue: Main Examination Hall
 Students must bring their ID cards.`,
-        'scholarship-announcement.txt': `INSTITUTE OF SCIENCE AND TECHNOLOGY
+        'scholarship-announcement.txt': `DAFFODIL INSTITUTE OF IT
 Merit-Based Scholarship Program 2024
 
 We are pleased to announce scholarships for outstanding students:
@@ -151,8 +151,8 @@ Application Process:
 3. Provide two recommendation letters
 
 Deadline: November 30, 2024
-Contact: scholarship@ist.edu.bd`,
-        'workshop-cybersecurity.txt': `INSTITUTE OF SCIENCE AND TECHNOLOGY
+Contact: scholarship@diit.edu.bd`,
+        'workshop-cybersecurity.txt': `DAFFODIL INSTITUTE OF IT
 Cybersecurity Workshop 2024
 
 Topic: "Ethical Hacking and Penetration Testing"
@@ -168,9 +168,9 @@ Topics Covered:
 - Cross-Site Scripting (XSS)
 - Security Testing Tools
 
-Registration: Free for IST students
+Registration: Free for DIIT students
 Limited seats available!
-Register at: events@ist.edu.bd`
+Register at: events@diit.edu.bd`
     }
 
     if (notices[file]) {

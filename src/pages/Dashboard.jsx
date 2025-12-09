@@ -86,9 +86,9 @@ function Dashboard() {
             </thead>
             <tbody>
               <tr><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Just now</td><td style={{ padding: '10px', borderBottom: '1px solid #eee', color: '#dc3545' }}>SQL Injection</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Auth Bypass</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Your IP</td></tr>
-              <tr><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>2 min ago</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>20050@ist.edu.bd</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Login</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>103.145.xx.xx</td></tr>
-              <tr><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>5 min ago</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>admin@ist.edu.bd</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Course Update</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>192.168.1.1</td></tr>
-              <tr><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>10 min ago</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>faculty@ist.edu.bd</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Grade Upload</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>172.16.xx.xx</td></tr>
+              <tr><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>2 min ago</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>20050@diit.edu.bd</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Login</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>103.145.xx.xx</td></tr>
+              <tr><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>5 min ago</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>admin@diit.edu.bd</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Course Update</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>192.168.1.1</td></tr>
+              <tr><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>10 min ago</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>faculty@diit.edu.bd</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Grade Upload</td><td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>172.16.xx.xx</td></tr>
             </tbody>
           </table>
         </div>

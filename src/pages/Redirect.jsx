@@ -83,7 +83,7 @@ function Redirect() {
                     color: 'white'
                 }}>
                     <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>🔗 Useful Links</h1>
-                    <p style={{ opacity: 0.8, fontSize: '1.1rem' }}>External resources for IST students</p>
+                    <p style={{ opacity: 0.8, fontSize: '1.1rem' }}>External resources for DIIT students</p>
                 </div>
 
                 <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem' }}>
@@ -164,7 +164,7 @@ function Redirect() {
                         <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>⛔</div>
                         <h2 style={{ color: '#c0392b', marginBottom: '1rem' }}>External Redirect Blocked</h2>
                         <p style={{ color: '#666', marginBottom: '1rem' }}>
-                            For security reasons, we only allow redirects to approved IST domains.
+                            For security reasons, we only allow redirects to approved DIIT domains.
                         </p>
                         <div style={{
                             background: '#fff5f5',

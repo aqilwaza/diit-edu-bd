@@ -9,7 +9,7 @@ function Files() {
   const [error, setError] = useState('')
 
   const documents = {
-    'syllabus.txt': `INSTITUTE OF SCIENCE AND TECHNOLOGY
+    'syllabus.txt': `DAFFODIL INSTITUTE OF IT
 Course Syllabus - Fall 2024
 
 Course: CS401 - Cybersecurity Fundamentals
@@ -19,17 +19,17 @@ Credits: 4
 Course Description:
 This course provides a comprehensive introduction to cybersecurity concepts...`,
     
-    'schedule.txt': `INSTITUTE OF SCIENCE AND TECHNOLOGY
+    'schedule.txt': `DAFFODIL INSTITUTE OF IT
 Academic Schedule - Fall 2024
 
 Important Dates:
 August 25, 2024 - Fall Semester Begins
 September 2, 2024 - Labor Day (No Classes)...`,
     
-    'handbook.txt': `INSTITUTE OF SCIENCE AND TECHNOLOGY
+    'handbook.txt': `DAFFODIL INSTITUTE OF IT
 Student Handbook 2024-2025
 
-Welcome to IST!
+Welcome to DIIT!
 
 This handbook provides essential information about university policies...`
   }

@@ -37,7 +37,7 @@ function Search() {
 
   // Load stored XSS on mount (persists across page reloads)
   useEffect(() => {
-    const saved = localStorage.getItem('ist_search_history')
+    const saved = localStorage.getItem('diit_search_history')
     if (saved && isValidXSS(saved)) {
       setStoredXSS(saved)
     }
@@ -61,7 +61,7 @@ function Search() {
       setXssTriggered(true)
       setResults([])
       // VULNERABLE: Store the XSS payload - persists across reloads!
-      localStorage.setItem('ist_search_history', searchQuery)
+      localStorage.setItem('diit_search_history', searchQuery)
       setStoredXSS(searchQuery)
       return
     }
@@ -85,7 +85,7 @@ function Search() {
   }
 
   const clearStoredXSS = () => {
-    localStorage.removeItem('ist_search_history')
+    localStorage.removeItem('diit_search_history')
     setStoredXSS('')
   }
 

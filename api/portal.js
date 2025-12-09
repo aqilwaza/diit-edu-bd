@@ -46,7 +46,7 @@ export default function handler(req, res) {
     username.includes('admin') && username.includes("'")
 
   // Valid test credentials
-  const isValidCredentials = (username === '20050@ist.edu.bd' && password === 'password123')
+  const isValidCredentials = (username === '20050@diit.edu.bd' && password === 'password123')
 
   if (hasSQLi) {
     // Authentication bypass successful!
@@ -71,7 +71,7 @@ SELECT * FROM users WHERE username='${username}' AND password='${password}'
       <li>User ID: 1</li>
       <li>Username: admin</li>
       <li>Role: Administrator</li>
-      <li>Email: admin@ist.edu.bd</li>
+      <li>Email: admin@diit.edu.bd</li>
     </ul>
     
     <p style="color: #721c24; background: #f8d7da; padding: 10px; border-radius: 3px;">
@@ -90,7 +90,7 @@ SELECT * FROM users WHERE username='${username}' AND password='${password}'
 <html>
 <head><title>Login Successful</title></head>
 <body>
-  <h1>Welcome, RAKIB MD OSMAN FARUQUE!</h1>
+  <h1>Welcome, MOHAMMAD MEHRAB HOSSAIN!</h1>
   <p>Login successful</p>
 </body>
 </html>

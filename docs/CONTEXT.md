@@ -52,21 +52,21 @@
 ## Project Identity & Metadata
 
 ### Repository
-- **GitHub**: `zahidoverflow/damn-vulnerable-web-university`
+- **GitHub**: `mehrab/damn-vulnerable-web-university`
 - **Branch**: `main`
 - **License**: MIT
 - **Version**: 1.0.0
 - **Package**: `damn-vulnerable-university`
 
 ### Live Deployment
-- **URL**: https://ist-edu-bd.vercel.app
+- **URL**: https://diit-edu-bd.vercel.app
 - **Platform**: Vercel (auto-deploy on push to main)
 - **Alternative**: Docker deployment available
 
 ### Contributors
-- **Author**: Mohammad Zahidul Islam (@zahidoverflow) - zahidoverflow@gmail.com
-- **Contributor**: Osman Faruque (@osmanfaruque)
-- **Institution**: Institute of Science and Technology (IST)
+- **Author**: Mohammad Mehrab Hossain - talk@mehrab.me
+
+- **Institution**: Daffodil Institute of IT (DIIT)
 - **Context**: Final Year Project - Cybersecurity Research
 
 ---
@@ -515,7 +515,7 @@ server {
 ### Setup
 ```bash
 # Clone repository
-git clone https://github.com/zahidoverflow/damn-vulnerable-web-university.git
+git clone https://github.com/mehrab/damn-vulnerable-web-university.git
 cd damn-vulnerable-web-university
 
 # Install dependencies
@@ -543,8 +543,8 @@ npm run docker:logs     # View container logs
 
 ### Git Configuration
 ```bash
-git config user.name "zahidoverflow"
-git config user.email "zahidoverflow@gmail.com"
+git config user.name "mehrabsec"
+git config user.email "mohammadmehrabh@gmail.com"
 ```
 
 ---
@@ -558,7 +558,7 @@ git config user.email "zahidoverflow@gmail.com"
 4. **Build**: `npm run build`
 5. **Output**: `dist/` directory served
 
-**Live URL**: https://ist-edu-bd.vercel.app
+**Live URL**: https://diit-edu-bd.vercel.app
 
 ### Docker (Self-Hosted)
 ```bash

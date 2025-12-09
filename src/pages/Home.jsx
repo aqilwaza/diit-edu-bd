@@ -3,7 +3,7 @@ import './Home.css'
 
 function Home() {
   const news = [
-    { id: 1, title: 'Welcome to IST 2024-2025', content: 'We are excited to welcome all new and returning students!', date: '2024-09-01' },
+    { id: 1, title: 'Welcome to DIIT 2024-2025', content: 'We are excited to welcome all new and returning students!', date: '2024-09-01' },
     { id: 2, title: 'Cybersecurity Workshop', content: 'Join us for a hands-on cybersecurity workshop next week.', date: '2024-10-15' },
     { id: 3, title: 'New Research Lab Opening', content: 'State-of-the-art AI research lab now open for students.', date: '2024-11-01' }
   ]
@@ -11,14 +11,14 @@ function Home() {
   return (
     <>
       <div className="hero-section">
-        <img src="/ist-front-side.png" alt="IST Campus" className="hero-image" />
+        <img src="/diit-front-side.jpg" alt="DIIT Campus" className="hero-image" />
       </div>
 
       <div className="container">
         <div className="grid">
           <div className="card">
-            <h2>🎓 About IST</h2>
-            <p>Leading institution in technology and science education, fostering innovation and research excellence since 1995.</p>
+            <h2>🎓 About DIIT</h2>
+            <p>Daffodil Institute of IT (DIIT) is a non-profit private institute located in Dhaka, Bangladesh that offers professional BBA, CSE, BTHM, and MBA programs under the National University.</p>
             <Link to="/about" className="btn">Learn More</Link>
           </div>
 

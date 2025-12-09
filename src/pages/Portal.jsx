@@ -52,7 +52,7 @@ function Portal() {
         const studentData = {
           name: 'SQL Injection User',
           student_id: 'BYPASSED',
-          email: 'admin@ist.edu.bd',
+          email: 'admin@diit.edu.bd',
           department: 'Security Testing',
           role: 'Administrator (via SQLi)'
         }
@@ -61,12 +61,12 @@ function Portal() {
         navigate('/dashboard')
       } else if (response.status === 200 && !html.includes('Login Failed')) {
         // Valid credentials - check for specific test account
-        const isTestAccount = studentId === '20050@ist.edu.bd' && password === 'password123'
+        const isTestAccount = studentId === '20050@diit.edu.bd' && password === 'password123'
         
         const studentData = isTestAccount ? {
-          name: 'RAKIB MD OSMAN FARUQUE',
+          name: 'MOHAMMAD MEHRAB HOSSAIN',
           student_id: '20050',
-          email: '20050@ist.edu.bd',
+          email: '20050@diit.edu.bd',
           department: 'Computer Science and Engineering',
           role: 'Student',
           batch: '19-20',
@@ -134,7 +134,7 @@ function Portal() {
             🎓
           </div>
           <h1 style={{ margin: 0, fontSize: '1.5rem', fontWeight: '600' }}>Student Portal</h1>
-          <p style={{ margin: '0.5rem 0 0', opacity: 0.9, fontSize: '0.9rem' }}>Institute of Science and Technology</p>
+          <p style={{ margin: '0.5rem 0 0', opacity: 0.9, fontSize: '0.9rem' }}>Daffodil Institute of IT</p>
         </div>
 
         {/* Form */}

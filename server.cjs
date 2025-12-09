@@ -111,7 +111,7 @@ app.all('/api/portal', (req, res) => {
         (username.includes('admin') && username.includes("'"));
 
     // Valid test credentials
-    const isValidCredentials = (username === '20050@ist.edu.bd' && password === 'password123');
+    const isValidCredentials = (username === '20050@diit.edu.bd' && password === 'password123');
 
     if (hasSQLi) {
         return res.status(200).send(`
@@ -139,7 +139,7 @@ app.all('/api/portal', (req, res) => {
 <html>
 <head><title>Login Successful</title></head>
 <body>
-  <h1>Welcome, RAKIB MD OSMAN FARUQUE!</h1>
+  <h1>Welcome, MOHAMMAD MEHRAB HOSSAIN!</h1>
   <p>Login successful</p>
 </body>
 </html>`);
@@ -204,8 +204,8 @@ You have an error in your SQL syntax near '${query}'</pre>
   <h3>Database Leak:</h3>
   <table border="1">
     <tr><th>ID</th><th>Username</th><th>Email</th><th>Role</th></tr>
-    <tr><td>1</td><td>admin</td><td>admin@ist.edu.bd</td><td>administrator</td></tr>
-    <tr><td>2</td><td>student</td><td>student@ist.edu.bd</td><td>user</td></tr>
+    <tr><td>1</td><td>admin</td><td>admin@diit.edu.bd</td><td>administrator</td></tr>
+    <tr><td>2</td><td>student</td><td>student@diit.edu.bd</td><td>user</td></tr>
   </table>
 </body>
 </html>`);

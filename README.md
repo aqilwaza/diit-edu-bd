@@ -2,12 +2,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-[![Vercel](https://img.shields.io/badge/Vercel-Live-000000?logo=vercel&logoColor=white)](https://ist-edu-bd.vercel.app)
+[![Vercel](https://img.shields.io/badge/Vercel-Live-000000?logo=vercel&logoColor=white)](https://diit-edu-bd.vercel.app)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
 
 > **⚠️ SECURITY WARNING**: This is an intentionally vulnerable web application for educational and authorized security testing purposes only. **DO NOT** deploy in production environments or expose to untrusted networks.
 
-**Live Demo**: [https://ist-edu-bd.vercel.app](https://ist-edu-bd.vercel.app)
+**Live Demo**: [https://diit-edu-bd.vercel.app](https://diit-edu-bd.vercel.app)
 
 ---
 
@@ -32,7 +32,7 @@ Built with modern web technologies (React + Vite) and realistic university websi
 
 ```bash
 # Clone and run
-git clone https://github.com/zahidoverflow/damn-vulnerable-web-university.git
+git clone https://github.com/mehrab/damn-vulnerable-web-university.git
 cd damn-vulnerable-web-university
 docker compose up -d
 ```
@@ -43,8 +43,8 @@ docker compose up -d
 
 ```bash
 # Pull from Docker Hub (if available)
-docker pull zahidoverflow/dvwu:latest
-docker run -d -p 3000:80 zahidoverflow/dvwu
+docker pull mehrab/dvwu:latest
+docker run -d -p 3000:80 mehrab/dvwu
 ```
 
 ---
@@ -264,10 +264,9 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for 
 
 ## 👥 Authors & Contributors
 
-**Primary Author**: [zahidoverflow](https://github.com/zahidoverflow)  
-**Contributors**: [osmanfaruque](https://github.com/osmanfaruque)
+**Primary Author**: [Mohammad Mehrab Hossain](https://mehrab.me/)
 
-**Academic Context**: Developed as part of a cybersecurity research project at Institute of Science and Technology (IST).
+**Academic Context**: Developed as part of a cybersecurity research project at Daffodil Institute of IT (DIIT).
 
 ---
 
@@ -282,9 +281,9 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for 
 
 ## 💬 Support & Contact
 
-- **Issues**: [GitHub Issues](https://github.com/zahidoverflow/damn-vulnerable-web-university/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/zahidoverflow/damn-vulnerable-web-university/discussions)
-- **Pull Requests**: [Submit PR](https://github.com/zahidoverflow/damn-vulnerable-web-university/pulls)
+- **Issues**: [GitHub Issues](https://github.com/mehrab/damn-vulnerable-web-university/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/mehrab/damn-vulnerable-web-university/discussions)
+- **Pull Requests**: [Submit PR](https://github.com/mehrab/damn-vulnerable-web-university/pulls)
 
 ---
 

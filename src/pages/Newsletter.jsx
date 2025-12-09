@@ -56,7 +56,7 @@ function Newsletter() {
         <>
             <div className="newsletter-hero">
                 <h1>📧 Newsletter Subscription</h1>
-                <p>Stay updated with IST news and events</p>
+                <p>Stay updated with DIIT news and events</p>
             </div>
 
             <div className="container">
@@ -97,13 +97,13 @@ function Newsletter() {
                         <strong>Why Test POST?</strong> Forms submit data via POST in real applications.
                         <br /><br />
                         <strong>Try Manual Test:</strong><br />
-                        <code>curl -X POST https://ist-edu-bd.vercel.app/newsletter -d "email=test%0d%0aSet-Cookie:admin=true"</code>
+                        <code>curl -X POST https://diit-edu-bd.vercel.app/newsletter -d "email=test%0d%0aSet-Cookie:admin=true"</code>
                     </div>
 
                     <div className="sample-emails">
                         <h3>Sample Inputs (Click to Test)</h3>
                         <div className="sample-list">
-                            <button onClick={() => setEmail('student@ist.edu.bd')} className="sample-btn">
+                            <button onClick={() => setEmail('student@diit.edu.bd')} className="sample-btn">
                                 Valid Email
                             </button>
                             <button onClick={() => setEmail('test@test.com\r\nSet-Cookie: admin=true')} className="sample-btn">

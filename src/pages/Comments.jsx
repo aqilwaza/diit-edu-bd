@@ -18,7 +18,7 @@ function Comments() {
             category: 'Announcement',
             image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=400&fit=crop',
             excerpt: 'We are excited to welcome all students back to campus for an exciting new semester. This year brings many new opportunities and programs.',
-            content: 'We are excited to welcome all students back to campus for an exciting new semester. This year brings many new opportunities, including new research programs, updated facilities, and exciting academic partnerships. We encourage all students to take advantage of the resources available and make the most of their time at IST.'
+            content: 'We are excited to welcome all students back to campus for an exciting new semester. This year brings many new opportunities, including new research programs, updated facilities, and exciting academic partnerships. We encourage all students to take advantage of the resources available and make the most of their time at DIIT.'
         },
         {
             id: 2,
@@ -38,7 +38,7 @@ function Comments() {
             category: 'Events',
             image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=400&fit=crop',
             excerpt: 'Join us for the biggest tech event of the year! Hackathons, workshops, and exciting prizes await.',
-            content: 'The Annual IST Tech Fest is back! This year features a 24-hour hackathon, workshops on AI and cybersecurity, guest speakers from top tech companies, and prizes worth over ৳500,000. Registration is now open for all students. Early bird registration ends December 15th.'
+            content: 'The Annual DIIT Tech Fest is back! This year features a 24-hour hackathon, workshops on AI and cybersecurity, guest speakers from top tech companies, and prizes worth over ৳500,000. Registration is now open for all students. Early bird registration ends December 15th.'
         }
     ]
 
@@ -62,14 +62,14 @@ function Comments() {
             id: 3,
             postId: 2,
             text: 'great! I was eagerly waiting for our new Lab',
-            author: 'Osman',
+            author: 'Mehrab',
             date: '2025-11-17T09:45:00.000Z'
         }
     ]
 
     // Load stored comments on mount
     useEffect(() => {
-        const saved = localStorage.getItem('ist_blog_comments')
+        const saved = localStorage.getItem('diit_blog_comments')
         if (saved) {
             try {
                 const parsed = JSON.parse(saved)
@@ -78,7 +78,7 @@ function Comments() {
                 const userComments = parsed.filter(c => !defaultIds.includes(c.id))
                 setStoredComments([...defaultComments, ...userComments])
             } catch (e) {
-                localStorage.removeItem('ist_blog_comments')
+                localStorage.removeItem('diit_blog_comments')
                 setStoredComments(defaultComments)
             }
         } else {
@@ -103,7 +103,7 @@ function Comments() {
         setStoredComments(updated)
 
         // VULNERABLE: Store without sanitization
-        localStorage.setItem('ist_blog_comments', JSON.stringify(updated))
+        localStorage.setItem('diit_blog_comments', JSON.stringify(updated))
 
         // Reset form
         setNewComment('')
@@ -113,7 +113,7 @@ function Comments() {
     const deleteComment = (id) => {
         const updated = storedComments.filter(c => c.id !== id)
         setStoredComments(updated)
-        localStorage.setItem('ist_blog_comments', JSON.stringify(updated))
+        localStorage.setItem('diit_blog_comments', JSON.stringify(updated))
     }
 
     const getCommentsForPost = (postId) => {
@@ -129,8 +129,8 @@ function Comments() {
                 textAlign: 'center',
                 color: 'white'
             }}>
-                <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>📰 IST Blog & News</h1>
-                <p style={{ opacity: 0.8, fontSize: '1.1rem' }}>Stay updated with the latest from Institute of Science and Technology</p>
+                <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>📰 DIIT Blog & News</h1>
+                <p style={{ opacity: 0.8, fontSize: '1.1rem' }}>Stay updated with the latest from Daffodil Institute of IT</p>
             </div>
 
             {/* Main Content */}

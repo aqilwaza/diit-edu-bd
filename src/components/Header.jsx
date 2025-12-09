@@ -10,13 +10,13 @@ function Header() {
       <div className="top-bar">
           <div className="top-bar-content">
             <div className="top-left">
-              <span>📧 info@ist.edu.bd</span>
+              <span>📧 admission@diit.edu.bd</span>
               <span className="separator">|</span>
               <span>Sitemap</span>
               <span className="separator">|</span>
               <span>FAQ</span>
               <span className="separator">|</span>
-              <span>Hotline: 617 2093 7910</span>
+              <span>Hotline: +880 1713-493287</span>
             </div>
             <div className="top-right">
               <a href="#" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
@@ -30,9 +30,9 @@ function Header() {
         <div className="container">
           <div className="header-content">
             <div className="logo">
-              <img src="/ist-logo.png" alt="IST Logo" className="logo-img" />
+              <img src="/diit-logo.png" alt="DIIT Logo" className="logo-img" />
               <div className="logo-text">
-                <h1>Institute of Science and Technology</h1>
+                <h1>Daffodil Institute of IT</h1>
                 <p>a center of excellence for education</p>
               </div>
             </div>
