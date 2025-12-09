@@ -1,5 +1,5 @@
 .top-bar {
-  background: #ff6600;
+  background: #0077b6;
   color: white;
   font-size: 0.85rem;
 }
@@ -63,7 +63,7 @@
 .logo-text h1 {
   font-size: 2rem;
   font-weight: 700;
-  color: #ff6600;
+  color: #0077b6;
   margin: 0;
   line-height: 1.2;
 }
@@ -82,8 +82,8 @@
 
 .payment-btn {
   background: white;
-  color: #ff6600;
-  border: 2px solid #ff6600;
+  color: #0077b6;
+  border: 2px solid #0077b6;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   font-weight: 600;
@@ -92,7 +92,7 @@
 }
 
 .payment-btn:hover {
-  background: #ff6600;
+  background: #0077b6;
   color: white;
 }
 
@@ -112,7 +112,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff6600;
+  color: #0077b6;
 }
 
 .menu-toggle {
